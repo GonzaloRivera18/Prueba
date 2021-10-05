@@ -29,8 +29,8 @@ public class ControlCenso extends AppCompatActivity {
         Integer CONTADORH = B.getInt("ContadorH");
         Integer CONTADORM = B.getInt("ContadorM");
 
-        Hom.setText(CONTADORH);
-        Muj.setText(CONTADORM);
+        Hom.setText(""+CONTADORH);
+        Muj.setText(""+CONTADORM);
         Total.setText(""+TOTAL);
 
 
